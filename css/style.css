@@ -31,6 +31,10 @@ li {
   .menu:hover .menu-content {
     display: block;
   }
+  .principal{
+    width: 100%;
+    height: 500px;
+  }
   h2{
     text-align: center;
   }
@@ -53,6 +57,10 @@ li {
     width: 370px;
     height: 300px;
     border-radius: 31px;
+  }
+  .Explorar{
+    font-size: 25px;
+    box-shadow: 0 8px 16px;
   }
   footer{
     background-color: black;
