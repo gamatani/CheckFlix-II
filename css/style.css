@@ -49,7 +49,11 @@
         left: 300px;
         text-align: justify;
     }
-    
+    .TituloJoker{
+        font-family: Roboto;
+        margin: 20px;
+    }
+
     .pbanner {
         color: red;
         font-family: Roboto;
@@ -96,9 +100,24 @@
         height: 300px;
         border-radius: 31px;
     }
+
+    .informacao{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        margin: 40px ;
+        font-family: 'roboto';
+    }
     
     h3 {
         margin-top: 10px;
+    }
+    .trailer{
+        font-family: 'roboto';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     
     .Abrir {
@@ -147,6 +166,7 @@
         margin-top: 20px;
     }
     
+
     @media (max-width: 428px) {
         header {
             height: 80px;
