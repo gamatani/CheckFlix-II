@@ -51,6 +51,7 @@
         top: 250px;
         left: 300px;
         text-align: justify;
+        
     }
     .TituloJoker{
         font-family: Roboto;
@@ -99,6 +100,26 @@
         background-color: aqua;
     }
     
+    .login{
+        font-family: 'roboto';
+        position: fixed;
+        background-color: white;
+        max-width: 350px;
+        min-height: 40vh;
+        padding: 25px;
+        top: 100px;
+        left: 450px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .email, .password{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    
     .joker {
         width: 400px;
         height: 300px;
@@ -133,6 +154,10 @@
         color: white;
         margin-left: 20%;
     }
+    .Abrir:hover{
+        background-color: white
+    }
+    
 
     .sobre{
         padding: 10px;
